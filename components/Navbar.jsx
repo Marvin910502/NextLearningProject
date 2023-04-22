@@ -1,14 +1,14 @@
-import Link from "next/link";
 import styles from "./Navbar.module.css";
+import ActiveLink from "./ActiveLink";
 
 
 function Navbar() {
   return (
     <div>
         <nav className={styles['menu-container']}>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
-            <Link href='/contact'>Contact</Link>
+            <ActiveLink text='Home' href='/'>Home</ActiveLink>
+            <ActiveLink text='About' href='/about'>About</ActiveLink>
+            <ActiveLink text='Contact' href='/contact'>Contact</ActiveLink>
         </nav>
     </div>
   )

@@ -1,16 +1,16 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import MainLayout from '../components/layouts/MainLayout'
+import MainLayout from '../../components/layouts/MainLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
-      <MainLayout>
+    <MainLayout>
         <div className="description">
           <p>
             Get started by editing&nbsp;
-            <code className="code">pages/index.jsx</code>
+            <code className="code">pages/contact.jsx</code>
           </p>
         </div>
 
@@ -24,6 +24,6 @@ export default function HomePage() {
             priority
           />
         </div>
-      </MainLayout>
+    </MainLayout>
   )
 }
