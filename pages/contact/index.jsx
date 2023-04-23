@@ -7,6 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function ContactPage() {
   return (
     <MainLayout>
+        <h1>Contact Page</h1>
+
         <div className="description">
           <p>
             Get started by editing&nbsp;

@@ -7,6 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function HomePage() {
   return (
       <MainLayout>
+        <h1>Home Page</h1>
+        
         <div className="description">
           <p>
             Get started by editing&nbsp;
